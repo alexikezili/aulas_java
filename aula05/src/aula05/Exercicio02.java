@@ -33,8 +33,8 @@ public class Exercicio02 {
 		
 		System.out.println("\n\nElementos da diagonal secundária: ");
 		for (int i = 0; i < matriz.length; i++) {
-			System.out.printf("%d ", matriz[i][2 - i]);
-			somaSecundaria += matriz[i][2 - i];
+			System.out.printf("%d ", matriz[i][matriz.length - 1 - i]);
+			somaSecundaria += matriz[i][matriz.length - 1 - i];
 		}
 		
 		System.out.printf("\n\n Soma da diagonal principal: %d", somaPrincipal);
