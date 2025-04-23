@@ -23,7 +23,6 @@ public class Exercicio02 {
 		
 		while (iNumeros.hasNext()) {
 			System.out.println(iNumeros.next());
-			
 		}
 		
 		sc.close();
